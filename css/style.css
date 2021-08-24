@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+body {
+    font-family: 'Nunito Sans';
+    background-image: url("material/background.jpg");
+    background-repeat:no-repeat;
+    background-size: 1700px 720px;
+
+}
+.main_menu ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.main_menu ul li{
+    display :inline-block;
+    margin: 0 10px;
+}
+.main_menu ul li a{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+.main_menu ul li a:hover{
+    color: deepskyblue;
+}
+#content{
+    width: 550px;
+    text-align: left;
+    float: right;
+    margin-right: 150px;
+}
+h1{
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 800;
+}
+#1{
+    font-size: 20px;
+    font-weight: 100;
+}
+.button{
+    margin-top: 50px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(4, 159, 211);
+}
+#about_us{
+    font-family: 'Montserrat', sans-serif;
+}
+.about{
+    margin-top: 700px;
+    padding-top: 70px;
+    background: white;
+    width: 800px;
+    text-align: center;
+    margin-left: 25%;
+    padding-bottom: 70px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 800; 
+}
+#2{
+    font-size: 20px;
+    font-weight: 100;
+}
+#stat{
+    background-image: url("material/page1.jpg");
+    background-size: 1700px 700px;
+    padding-top: 95px;
+    background-repeat:no-repeat;
+    padding-bottom: 95px;
+}
+.content2{
+    font-family: 'Montserrat';
+    text-align: left;
+    padding: 25px;
+}
+.container {
+    width: 500px;
+    background-color: rgb(231, 229, 229);
+  }
+  
+  .skills {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .design {width: 75%; background-color:deepskyblue;}
+  .web {width: 90%; background-color: deepskyblue;}
+  .marketing {width: 65%; background-color: deepskyblue;}
+.footer{
+    text-align: center;
+    background-color: deepskyblue;
+    background-color: deepskyblue;
+    display: block;
+    width: auto;
+    padding: 50px;
+    color: white;
+}
+.f {
+    padding-right: 50px;
+    text-align: center;
+}
+#gallery{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.column {
+    float: left;
+    width: 24.2%;
+    padding: 2px;
+  }  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .load{
+      width: 1405px;
+      padding: 30px;
+      text-align: center;
+      background-color:rgb(231, 229, 229);
+  }
+#work{
+    padding-top: 10px;
+    background: white;
+    width: 800px;
+    text-align: center;
+    margin-left: 25%;
+    padding-bottom: 20px;
+}
+#serves{
+    width: 1402.5px;
+    margin-left: 51px;
+    padding:20px;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+}
+* {box-sizing: border-box}
+/* Slideshow container */
+.slideshow-container {
+    margin-left: 51px;
+    width: 93.3%;
+    position: relative;
+    background: deepskyblue;
+  }
+
+  /* Slides */
+  .mySlides {
+    display:none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    margin-left: 51px;
+    width: 93.3%;
+    text-align: center;
+    padding: 20px;
+    background: deepskyblue;
+    margin-bottom: 10px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+      transform: scale(1.5);
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-family:'Nunito'; color:white; font-size: 32px;}
+  
+  /* Add a blue color to the author */
+  .author {font-family:'Nunito'; color:white; font-size: 20px}
+#contact{
+    padding-top: 10px;
+    background: rgb(231, 229, 229);
+    text-align: center;
+    margin: 0px 50px;
+    padding-bottom: 70px;
+}
+#name, select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #title, select {
+    width: 51%;
+    padding: 12px 20px;
+    margin: 8px 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing:border-box;
+  }
+  #comment, select {
+    width: 51%;
+    padding: 40px 20px;
+    margin: 8px 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
